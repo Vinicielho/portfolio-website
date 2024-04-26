@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Providers } from "./providers";
+import { Providers } from "./Components/providers";
 import "./globals.css";
 import ThemeSwitcher from "./Components/themeSwitcher";
 
@@ -17,8 +17,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen flex flex-col items-center">
         <Providers>
-        <header><i>Welcome!</i><button>lenguage</button><ThemeSwitcher/></header>
-        {children}
+          <header>
+            <i>Welcome!</i>
+            <button>lenguage</button>
+            <ThemeSwitcher />
+          </header>
+          <main>{children}</main>
         </Providers>
       </body>
     </html>
