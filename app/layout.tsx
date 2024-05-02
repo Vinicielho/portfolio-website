@@ -14,11 +14,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen flex flex-col items-center">
+    <html
+      className="min-h-screen flex flex-col items-center"
+      lang="en"
+      suppressHydrationWarning
+    >
+      <body>
         <Providers>
-          <header>
-            <i>Welcome!</i>
+          <header className="flex">
+            <h1
+              className="text-xl text-accent italic"
+              // style={{ color: "var(--accent)" }}
+            >
+              Welcome!
+            </h1>
             <button>lenguage</button>
             <ThemeSwitcher />
           </header>

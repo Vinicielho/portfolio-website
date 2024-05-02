@@ -6,7 +6,7 @@ import { useTheme } from 'next-themes'
 
 export default function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false)
-  const { theme, setTheme, resolvedTheme } = useTheme()
+  const { setTheme, resolvedTheme } = useTheme();
 
   useEffect(() =>  setMounted(true), [])
 
@@ -14,21 +14,19 @@ export default function ThemeSwitcher() {
     <SunMoon/>
   )
 
-  if (resolvedTheme === 'dark') {
-    return (
-    <>
-      <Moon onClick={() => setTheme('light')} />
-      <span>The current theme is: <strong>{theme}</strong></span>
-    </>
-    )
-  }
-
-  if (resolvedTheme === 'light') {
+  if (resolvedTheme === "dark") {
     return (
       <>
-    <Sun onClick={() => setTheme('dark')} />
-    <span>The current theme is: <strong>{theme}</strong></span>
-    </>
-    )
+        <Moon onClick={() => setTheme("light")} />
+      </>
+    );
+  }
+
+  if (resolvedTheme === "light") {
+    return (
+      <>
+        <Sun onClick={() => setTheme("dark")} />
+      </>
+    );
   }
 }

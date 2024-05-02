@@ -11,14 +11,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        light: {
-          background: colors.pink[50],
-          text: colors.purple[950],
-        },
-        dark: {
-          background: colors.green[950],
-          text: colors.red[50],
-        },
+        background: "var(--background)",
+        text: "var(--text)",
+        accent: "var(--accent)",
       },
     },
   },
