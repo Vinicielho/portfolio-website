@@ -15,15 +15,15 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      className="min-h-screen flex flex-col items-center"
       lang="en"
       suppressHydrationWarning
+      className="min-h-screen flex flex-col items-center bg-background text-text"
     >
       <body>
         <Providers>
           <header className="flex">
             <h1
-              className="text-xl text-accent italic"
+              className="text-xl italic text-accent"
               // style={{ color: "var(--accent)" }}
             >
               Welcome!

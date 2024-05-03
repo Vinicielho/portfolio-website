@@ -15,18 +15,10 @@ export default function ThemeSwitcher() {
   )
 
   if (resolvedTheme === "dark") {
-    return (
-      <>
-        <Moon onClick={() => setTheme("light")} />
-      </>
-    );
+    return <Moon onClick={() => setTheme("light")} />;
   }
 
   if (resolvedTheme === "light") {
-    return (
-      <>
-        <Sun onClick={() => setTheme("dark")} />
-      </>
-    );
+    return <Sun onClick={() => setTheme("dark")} />;
   }
 }

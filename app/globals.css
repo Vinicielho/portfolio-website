@@ -2,29 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-    --background:rgb(255, 197, 254);
-    --text:rgba(32, 0, 32, 1);
-    --accent:rgba(239, 255, 0, 1);
+.light {
+    --background:yellow;
+    --text:maroon;
+    /* --background: theme('colors.light.background');
+    --text: theme('colors.light.text'); */
 }
 .dark {
-    --background: rgba(32, 0, 32, 1);
-    --text: rgba(0, 240, 255, 1);
-    --accent: rgb(0, 255, 18, 1);
+    --background:maroon;
+    --text:yellow;
+    /* --background: theme('colors.dark.background');
+    --text: theme('colors.dark.text'); */
 }
 
-html,
+
+/* html,
 body {
     background-color: var(--background);
     color: var(--text);
-}
+} */
 
 *{
     box-sizing: content-box;
     margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 
