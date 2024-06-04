@@ -1,9 +1,9 @@
 import createMiddleware from "next-intl/middleware";
+import commons from "./commons.json";
 
 export default createMiddleware({
-  // TODO: UNIFY THIS CONFIG
-  locales: ["en", "pt-br"],
-  defaultLocale: "en",
+  locales: commons.locales,
+  defaultLocale: commons.locales[0],
 });
 
 export const config = {

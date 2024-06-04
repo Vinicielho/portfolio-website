@@ -1,0 +1,8 @@
+{
+  "layout": {
+    "title": "Bem-vindo!"
+  },
+  "components": {
+    "header": { "title": "Bem-vindo!" }
+  }
+}

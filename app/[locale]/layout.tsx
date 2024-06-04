@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
-import { Providers } from "../components/themeProvider";
+
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
+
+import { Providers } from "./components/themeProvider";
 import "../globals.css";
-import ThemeSwitcher from "../components/themeSwitcher";
+import Header from "./components/header";
 
 export const metadata: Metadata = {
   title: "Vinicius's portfolio website",
@@ -10,23 +14,23 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  lang,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
-  lang: string;
+  params: { locale: string };
 }>) {
+  const messages = await getMessages();
+
   return (
-    <html lang={lang} suppressHydrationWarning>
-      <body className="min-h-screen min-w-screen flex flex-col items-center bg-background text-text">
+    <html lang={locale} suppressHydrationWarning>
+      <NextIntlClientProvider messages={messages}>
         <Providers>
-          <header className="flex 2-max">
-            <h1 className="text-2xl italic text-accent">Welcome!</h1>
-            <button>lenguage</button>
-            <ThemeSwitcher />
-          </header>
-          <main>{children}</main>
+          <body className="min-h-screen min-w-screen flex flex-col items-center bg-background text-text">
+            <Header />
+            <main>{children}</main>
+          </body>
         </Providers>
-      </body>
+      </NextIntlClientProvider>
     </html>
   );
 }

@@ -1,0 +1,8 @@
+{
+  "layout": {
+    "title": "Welcome!"
+  },
+  "components": {
+    "header": { "title": "Welcome!" }
+  }
+}
