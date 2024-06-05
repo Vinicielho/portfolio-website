@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-
 import { Providers } from "./components/themeProvider";
 import "../globals.css";
 import Header from "./components/header";
@@ -23,14 +21,14 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <NextIntlClientProvider messages={messages}>
+      <body className="min-h-screen min-w-screen flex flex-col items-center bg-background text-text">
         <Providers>
-          <body className="min-h-screen min-w-screen flex flex-col items-center bg-background text-text">
+          <NextIntlClientProvider messages={messages}>
             <Header />
             <main>{children}</main>
-          </body>
+          </NextIntlClientProvider>
         </Providers>
-      </NextIntlClientProvider>
+      </body>
     </html>
   );
 }

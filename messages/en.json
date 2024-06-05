@@ -2,6 +2,11 @@
   "layout": {
     "title": "Welcome!"
   },
+  "page": {
+    "first": "Hi, this is the first version of my portfolio website",
+    "second": "Soon i will have a good presentation of how i like to work",
+    "third": "Hope it will impress!"
+  },
   "components": {
     "header": { "title": "Welcome!" }
   }

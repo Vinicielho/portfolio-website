@@ -1,9 +1,13 @@
+import { useTranslations } from "next-intl";
+
 export default function Home() {
+  const t = useTranslations("page");
+
   return (
-    <main >
-      <h1>Hi, this is the first version of my portfolio website!</h1>
-      <h2>Soon i will have a good presentation of how i like to work</h2>
-      <h3>Hope it will impress!</h3>
+    <main>
+      <h1>{t("first")}</h1>
+      <h2>{t("second")}</h2>
+      <h3>{t("third")}</h3>
     </main>
   );
 }

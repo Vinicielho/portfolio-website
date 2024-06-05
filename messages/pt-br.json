@@ -2,6 +2,11 @@
   "layout": {
     "title": "Bem-vindo!"
   },
+  "page": {
+    "first": "Olá, essa é a primeira versão do meu site-portifolio",
+    "second": "Será uma boa apresentação de como gosto de trabalhar",
+    "third": "Espero que impressione!"
+  },
   "components": {
     "header": { "title": "Bem-vindo!" }
   }
