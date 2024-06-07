@@ -1,13 +1,13 @@
 {
-  "layout": {
-    "title": "Welcome!"
-  },
   "page": {
-    "first": "Hi, this is the first version of my portfolio website",
-    "second": "Soon i will have a good presentation of how i like to work",
-    "third": "Hope it will impress!"
+    "first": "Welcome!",
+    "second": "This is the first version of my portfolio website",
+    "third": "Soon i will have a good presentation of how i like to work",
+    "fourth": "Hope it will impress!",
+    "explain1": "As you can see, there are a couple of systems working already,",
+    "explain2": "Themes, and lenguages!"
   },
   "components": {
-    "header": { "title": "Welcome!" }
+    "header": { "title": "Logo" }
   }
 }

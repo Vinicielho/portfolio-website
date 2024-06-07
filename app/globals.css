@@ -4,6 +4,8 @@
 
 :root {
     --light-pink:rgb(255, 248, 255);
+    --dark-Pink:rgb(200,150,255);
+    --light-purple:rgb(200,100,150);
     --dark-purple:rgb(2, 0, 5);
     --neon-green:rgb(100, 255, 100);
     --cyan:rgb(160, 220, 255);
@@ -11,11 +13,20 @@
 
 .light {
     --background:var(--light-pink);
+    --contrast:var(--dark-Pink);
     --text:var(--dark-purple);
     --accent:var(--cyan);
 }
+
 .dark {
     --background:var(--dark-purple);
+    --contrast:var(--light-purple);
     --text:var(--light-pink);
     --accent:var(--neon-green);
+}
+
+@layer utilities {
+    .textBox{
+        background: var(--contrast);
+    }
 }

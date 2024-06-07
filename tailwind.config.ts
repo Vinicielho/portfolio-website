@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     colors: {
       background: "var(--background)",
+      contrast: "var(--contrast)",
       text: "var(--text)",
       accent: "var(--accent)",
     },

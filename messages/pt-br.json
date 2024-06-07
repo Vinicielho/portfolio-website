@@ -1,13 +1,13 @@
 {
-  "layout": {
-    "title": "Bem-vindo!"
-  },
   "page": {
-    "first": "Olá, essa é a primeira versão do meu site-portifolio",
-    "second": "Será uma boa apresentação de como gosto de trabalhar",
-    "third": "Espero que impressione!"
+    "first": "Bem vindo!",
+    "second": "Essa é a primeira versão do meu site-portifolio",
+    "third": "Será uma boa apresentação de como gosto de trabalhar",
+    "fourth": "Espero que impressione!",
+    "explain1": "como pode ver, já temos alguns sistemas funcionando,",
+    "explain2": "Temas e Linguagens!"
   },
   "components": {
-    "header": { "title": "Bem-vindo!" }
+    "header": { "title": "Logo" }
   }
 }

@@ -4,6 +4,7 @@ import { getMessages } from "next-intl/server";
 import { Providers } from "./components/themeProvider";
 import "../globals.css";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Vinicius's portfolio website",
@@ -20,12 +21,19 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className="min-h-screen min-w-screen flex flex-col items-center bg-background text-text">
+    <html
+      className="min-h-screen min-w-screen flex justify-center bg-background text-text "
+      lang={locale}
+      suppressHydrationWarning
+    >
+      <body className="max-w-[1920px]">
         <Providers>
           <NextIntlClientProvider messages={messages}>
-            <Header />
-            <main>{children}</main>
+            <main className="size-full">
+              <Header />
+              {children}
+            </main>
+            <Footer />
           </NextIntlClientProvider>
         </Providers>
       </body>
