@@ -1,13 +1,20 @@
 {
   "page": {
-    "first": "Welcome!",
-    "second": "This is the first version of my portfolio website",
-    "third": "Soon i will have a good presentation of how i like to work",
-    "fourth": "Hope it will impress!",
-    "explain1": "As you can see, there are a couple of systems working already,",
-    "explain2": "Themes, and lenguages!"
+    "title": "Welcome!",
+    "herosBox": {
+      "title": "This is an alpha version of my portfolio website, Soon i will have a good presentation of how i like to work. Hope it will impress!",
+      "subtitle": "As you can see the visuals still need some work, but there are a couple of systems working already:"
+    },
+    "explanations": {
+      "theme": {
+        "title": "theme",
+        "content": "Here goes an explanation for the theme system"
+      },
+      "intl": {
+        "title": "internationalization",
+        "content": "here goes an explanation for the internationalization system"
+      }
+    }
   },
-  "components": {
-    "header": { "title": "Logo" }
-  }
+  "components": {}
 }

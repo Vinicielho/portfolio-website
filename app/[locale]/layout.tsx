@@ -22,18 +22,18 @@ export default async function RootLayout({
 
   return (
     <html
-      className="min-h-screen min-w-screen flex justify-center bg-background text-text "
+      className="size-full flex justify-center bg-background text-text"
       lang={locale}
       suppressHydrationWarning
     >
-      <body className="max-w-[1920px]">
+      <body className="w-[90%] max-w-screen-xl">
         <Providers>
           <NextIntlClientProvider messages={messages}>
             <main className="size-full">
               <Header />
               {children}
+              <Footer />
             </main>
-            <Footer />
           </NextIntlClientProvider>
         </Providers>
       </body>

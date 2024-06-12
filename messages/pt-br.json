@@ -1,13 +1,20 @@
 {
   "page": {
-    "first": "Bem vindo!",
-    "second": "Essa é a primeira versão do meu site-portifolio",
-    "third": "Será uma boa apresentação de como gosto de trabalhar",
-    "fourth": "Espero que impressione!",
-    "explain1": "como pode ver, já temos alguns sistemas funcionando,",
-    "explain2": "Temas e Linguagens!"
+    "title": "Bem vindo!",
+    "herosBox": {
+      "title": "Essa é uma versão alpha do meu site-portifolio, Será uma boa apresentação de como gosto de trabalhar. Espero que impressione!",
+      "subtitle": "como pode ver, o visual ainda precisa de um trato, mas já temos alguns sistemas funcionando:"
+    },
+    "explanations": {
+      "theme": {
+        "title": "temas",
+        "content": "Aqui vai uma explicação de temas"
+      },
+      "intl": {
+        "title": "Internacionalização",
+        "content": "aqui vai uma explicação de internacionalização"
+      }
+    }
   },
-  "components": {
-    "header": { "title": "Logo" }
-  }
+  "components": {}
 }
