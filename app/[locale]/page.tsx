@@ -26,8 +26,10 @@ export default function Home() {
           <div onClick={() => setReading("intl")}>
             {t(`explanations.intl.title`)}
           </div>
+          {/* <div>Github Snippets</div> */}
+          {/* <div>O próprio sidenavcom scrollspy</div> */}
         </div>
-        <div className="py-2">{t(`explanations.${reading}.content`)}</div>
+        <div className="py-4 ">{t(`explanations.${reading}.content`)}</div>
       </div>
     </div>
   );

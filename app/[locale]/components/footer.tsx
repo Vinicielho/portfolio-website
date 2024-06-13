@@ -2,9 +2,9 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function Footer() {
-  const t = useTranslations("components.header");
+  // const t = useTranslations("components.footer");
 
-  // faz a tradução, no lugar dos nomes põe apenas os logos
+  //TODO: faz a tradução, no lugar dos nomes põe apenas os logos
   return (
     <footer className="flex gap-1 py-2">
       <p>Find me on </p>
