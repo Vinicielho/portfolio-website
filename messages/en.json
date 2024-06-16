@@ -16,5 +16,5 @@
       }
     }
   },
-  "components": {}
+  "components": { "footer": { "title": "Find me on ", "or": "or" } }
 }

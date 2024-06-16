@@ -22,7 +22,7 @@ export default async function RootLayout({
 
   return (
     <html
-      className="size-full flex justify-center bg-background text-text"
+      className="min-w-screen min-h-screen flex justify-center bg-background text-text"
       lang={locale}
       suppressHydrationWarning
     >

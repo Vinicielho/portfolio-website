@@ -28,10 +28,9 @@
 @layer utilities {
     .textBox{
         width:75%;
-        background: var(--contrast);
         padding:1em;
         border-radius: 6px;
-        /* Add transparency to the color? */
-        box-shadow: 0px 0px 8px 1px var(--accent);
+        /* animar a sombra? */
+        box-shadow: 0px 0px 16px 1px var(--contrast);
     }
 }

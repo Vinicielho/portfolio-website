@@ -16,5 +16,5 @@
       }
     }
   },
-  "components": {}
+  "components": { "footer": { "title": "encontre-me no ", "or": "ou" } }
 }

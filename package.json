@@ -1,9 +1,10 @@
 {
-  "name": "nextjs",
+  "name": "vinicius-portfolio",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--trace-warnings' next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

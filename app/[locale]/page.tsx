@@ -8,8 +8,8 @@ export default function Home() {
 
   // Presta atenção nas tags!
   return (
-    <div className="size-full flex flex-col items-center">
-      <div className="size-full flex flex-col justify-around items-center text-center">
+    <div className="flex flex-col items-center">
+      <div className="h-screen flex flex-col justify-around items-center text-center">
         {/* TODO: Animar as boas vindas */}
         <h1 className="text-7xl ">{t("title")}</h1>
         <div className="textBox text-xl">
@@ -26,8 +26,8 @@ export default function Home() {
           <div onClick={() => setReading("intl")}>
             {t(`explanations.intl.title`)}
           </div>
-          {/* <div>Github Snippets</div> */}
-          {/* <div>O próprio sidenavcom scrollspy</div> */}
+          {/* <div>Code Box</div> */}
+          {/* <div>O próprio sidenav com scrollspy</div> */}
         </div>
         <div className="py-4 ">{t(`explanations.${reading}.content`)}</div>
       </div>
