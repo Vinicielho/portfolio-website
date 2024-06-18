@@ -21,7 +21,7 @@ export default function LocaleSwitcher() {
 
   return (
     <button
-      className="border rounded-md border-accent px-4 py-2"
+      className="border rounded-md border-contrast px-4 py-2"
       onClick={toggleLocale}
       disabled={isPending}
     >
