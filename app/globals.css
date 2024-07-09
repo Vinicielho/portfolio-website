@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-    --light-pink:rgb(250, 240, 255);
+    --light-pink:rgb(255, 248, 255);
     --dark-pink:rgb(139, 100, 175);
     --light-purple:rgb(80, 0, 120);
     --dark-purple:rgb(2, 0, 5);
@@ -14,14 +14,14 @@
 .light {
     --background:var(--light-pink);
     --contrast:var(--light-purple);
-    --accent:var(--cyan);
+    --accent:var(--neon-green);
     --text:var(--dark-purple);
 }
 
 .dark {
     --background:var(--dark-purple);
     --contrast:var(--dark-pink);
-    --accent:var(--neon-green);
+    --accent:var(--cyan);
     --text:var(--light-pink);
 }
 
@@ -30,7 +30,12 @@
         width:75%;
         padding:1em;
         border-radius: 6px;
-        /* animar a sombra? */
+        /*animar a sombra!*/
         box-shadow: 0px 0px 16px 1px var(--contrast);
     }
+}
+
+html{
+    font-family: var(--league-gothic);
+
 }
