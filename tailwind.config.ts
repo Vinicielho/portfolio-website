@@ -9,9 +9,21 @@ const config: Config = {
   theme: {
     colors: {
       background: "var(--background)",
-      contrast: "var(--contrast)",
       text: "var(--text)",
+      primary: "var(--primary)",
+      secondary: "var(--secondary)",
       accent: "var(--accent)",
+    },
+    extend: {
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 2s ease-in ",
+      },
     },
   },
   plugins: [],

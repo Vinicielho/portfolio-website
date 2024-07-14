@@ -38,6 +38,7 @@ export default async function RootLayout({
             <main className="size-full">
               <Header />
               {children}
+              {/* Footer precisa ser um componente separado? */}
               <Footer />
             </main>
           </NextIntlClientProvider>

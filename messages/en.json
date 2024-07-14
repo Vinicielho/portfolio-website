@@ -1,18 +1,11 @@
 {
   "page": {
     "title": "Welcome!",
-    "herosBox": {
-      "title": "This is an alpha version of my portfolio website, Soon i will have a good presentation of how i like to work. Hope it will impress!",
-      "subtitle": "As you can see the visuals still need some work, but there are a couple of systems working already:"
-    },
+    "heroBox": "This is an alpha version of my portfolio website, Soon i will have a good presentation of how i like to work. Hope it will impress!",
     "explanations": {
       "theme": {
         "title": "theme",
         "content": "I will make an in depth explanation in the future, but i will say that it was made with some simplified tricks with tailwind, and a library named next-themes, the advantage of using it is that it solves a problem which happens thanks to next.js's server-side rendering, where the content blinks from the light theme to the dark one since it checks the user preferences when ariving to the browser, having this and some other details solved is a great boost to productivity."
-      },
-      "intl": {
-        "title": "internationalization",
-        "content": "I will make an in depth explanation in the future, but it suffices for now that its being done with the next-intl library which i belive to be the most we adjusted for this project, it also uses sistems like middleware which i know to be very usefull, it will be intresting to see this grow."
       }
     }
   },

@@ -1,18 +1,11 @@
 {
   "page": {
     "title": "Bem vindo!",
-    "herosBox": {
-      "title": "Essa é uma versão alpha do meu site-portifolio, Será uma boa apresentação de como gosto de trabalhar. Espero que impressione!",
-      "subtitle": "como pode ver, o visual ainda precisa de um trato, mas já temos alguns sistemas funcionando:"
-    },
+    "heroBox": "blablalbvalblablaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAblabll",
     "explanations": {
       "theme": {
         "title": "temas",
         "content": "Farei uma explicação a fundo no futuro, porém adianto que foi feito com uma simplificação de uns truques com tailwind e uma biblioteca chamada next-themes, a vantagem de usa-la é que ela resolve um problema que acontece por conta do next.js renderizar no servidor, acaba acontecendo uma piscada do tema claro para o escuro pois ele verifica qual tema o usuário prefere quando chega no navegador e depois troca, já ter isso e outros detalhes resolvidos é uma grande ajuda com produtividade."
-      },
-      "intl": {
-        "title": "Internacionalização",
-        "content": "Farei uma explicação a fundo no futuro, porém adianto que se trata da biblioteca next-intl, que ao que entendo é a mais própria para este caso, ela também faz uso de sistemas como middleware que já aprendi ser muito útil, e tenho certeza que será interessante ver esse sistema crescer."
       }
     }
   },

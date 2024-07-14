@@ -1,5 +1,6 @@
 'use client'
 
+// TODO: ver como esses elementos recebem tamanhos e lalala
 import { Sun, Moon, SunMoon } from 'tabler-icons-react'
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'

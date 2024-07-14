@@ -13,8 +13,9 @@ export default function Footer() {
           Linkedin,
         </Link>
         <Link href="https://github.com/Vinicielho">Github</Link>
+        {/* Oncliock add to clipboard: */}
       </div>
-      {t(`or`)} email: viniciuscoelho1995@yahoo.com.br
+      {t(`or`)} email: vinicius_webdev@proton.me
     </footer>
   );
 }

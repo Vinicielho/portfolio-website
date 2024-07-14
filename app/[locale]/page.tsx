@@ -12,23 +12,14 @@ export default function Home() {
       <div className="h-screen flex flex-col justify-around items-center text-center">
         {/* TODO: Animar as boas vindas */}
         <h1 className="text-7xl ">{t("title")}</h1>
-        <div className="textBox text-xl">
-          <h2>{t(`herosBox.title`)}</h2>
-          <h3>{t(`herosBox.subtitle`)}</h3>
+        <div className="myBox myShadow w-3/4 text-xl animate-fadeIn">
+          <h2>{t("heroBox")}</h2>
         </div>
       </div>
-      {/* This will become a sidenav with scrollspy to toggle between the content */}
-      <div className="w-full flex flex-col items center">
-        <div className="w-full border-2 rounded-md flex justify-around">
-          <div onClick={() => setReading("theme")}>
-            {t(`explanations.theme.title`)}
-          </div>
-          <div onClick={() => setReading("intl")}>
-            {t(`explanations.intl.title`)}
-          </div>
-          {/* <div>Code Box</div> */}
-          {/* <div>O próprio sidenav com scrollspy</div> */}
-        </div>
+      {/* Caixa nomeada Meus projetos, e sidenav pra selecionar qual projeto mostrar */}
+      <div className="myBox w-full flex flex-col items center">
+        <div>Título</div>
+        <div>sidenav com "meus projetos" como primeira opção</div>
         <div className="py-4 ">{t(`explanations.${reading}.content`)}</div>
       </div>
     </div>
