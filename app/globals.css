@@ -11,8 +11,8 @@
     --dark-purple:rgb(16, 0, 32);
     --darkest-purple:rgb(4, 0, 4);
 
-    --cyan: rgb(0, 191, 255);
-    --green: rgb(5, 245, 117);
+    --cyan: rgb(96, 226, 255);
+    --green: rgb(96, 255, 226);
 }
 
 .light {
@@ -20,7 +20,7 @@
     --text:var(--darkest-purple);
     --primary:var(--light-purple);
     --secondary:var(--purple);
-    --accent:var(--cyan);
+    --accent:var(--green);
 
 }
 
@@ -30,7 +30,7 @@
     --primary:var(--dark-purple);
     --secondary:var(--light-pink);
 
-    --accent:
+    --accent: var(--cyan);
 }
 
 @layer utilities {
