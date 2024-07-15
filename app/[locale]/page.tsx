@@ -11,15 +11,14 @@ export default function Home() {
     <div className="flex flex-col items-center">
       <div className="h-screen flex flex-col justify-around items-center text-center">
         {/* TODO: Animar as boas vindas */}
-        <h1 className="text-7xl text-accent">{t("title")}</h1>
+        <h1 className="text-7xl">{t("title")}</h1>
         <div className="myBox myShadow w-3/4 text-xl animate-fadeIn">
           <h2>{t("heroBox")}</h2>
         </div>
       </div>
-      {/* Caixa nomeada Meus projetos, e sidenav pra selecionar qual projeto mostrar */}
+      {/* Essa caixa vai ter um side nav que vai olhar a lista de conteudos dentro das traduções, criar um link pra cada um e selecionar ele para colocar aqui e ser lido*/}
       <div className="myBox w-full flex flex-col items center">
         <div>Título</div>
-        <div>sidenav com "meus projetos" como primeira opção</div>
         <div className="py-4 ">{t(`explanations.${reading}.content`)}</div>
       </div>
     </div>

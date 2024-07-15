@@ -1,4 +1,5 @@
 {
+  "layout": { "footer": { "title": "Find me on ", "or": "or" } },
   "page": {
     "title": "Welcome!",
     "heroBox": "This is an alpha version of my portfolio website, Soon i will have a good presentation of how i like to work. Hope it will impress!",
@@ -8,6 +9,5 @@
         "content": "I will make an in depth explanation in the future, but i will say that it was made with some simplified tricks with tailwind, and a library named next-themes, the advantage of using it is that it solves a problem which happens thanks to next.js's server-side rendering, where the content blinks from the light theme to the dark one since it checks the user preferences when ariving to the browser, having this and some other details solved is a great boost to productivity."
       }
     }
-  },
-  "components": { "footer": { "title": "Find me on ", "or": "or" } }
+  }
 }
