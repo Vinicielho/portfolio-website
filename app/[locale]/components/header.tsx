@@ -1,26 +1,24 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import LocaleSwitcher from "./localeSwitcher";
 import ThemeSwitcher from "./themeSwitcher";
 
 export default function Header() {
-  // Elemento mais específico?
   const headerRef = useRef<HTMLDivElement>(null);
+  const [onTop, setOnTop] = useState(scrollY > 0 ? false : true);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const handleScroll = () => {
       if (headerRef.current) {
         if (window.scrollY > 0) {
-          headerRef.current.classList.add("backdrop-blur-sm");
-          headerRef.current.classList.add("rounded-xl");
-          headerRef.current.classList.add("myShadow");
+          setOnTop(false);
         } else {
-          headerRef.current.classList.remove("backdrop-blur-sm");
-          headerRef.current.classList.remove("rounded-xl");
-          headerRef.current.classList.remove("myShadow");
+          setOnTop(true);
         }
       }
     };
+
+    handleScroll();
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -29,11 +27,12 @@ export default function Header() {
   return (
     <header
       ref={headerRef}
-      // TODO: Animação de quando muda
-      className="sticky top-0 w-full flex justify-between items-center p-4 transition-all"
+      className={`sticky top-0 contentWidth box-content flex justify-between items-center p-4 rounded-b-xl transition-all ${
+        onTop ? "myShadow" : "backdrop-blur-sm"
+      }`}
     >
       Logo
-      {/* TODO: Create an animation for the logo */}
+      {/* TODO: M E Z M E R I Z E */}
       <div className="flex gap-4 items-center">
         <ThemeSwitcher />
         <LocaleSwitcher />

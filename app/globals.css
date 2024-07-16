@@ -6,6 +6,7 @@
     --lightest-pink:rgb(255, 247, 255);
     --light-pink: rgb(255,207,255);
 
+    /*TODO: Light-purple & purple tá nuito infantil não? */
     --light-purple:rgb(239, 223,255);
     --purple: rgb(32,0,96);
     --dark-purple:rgb(16, 0, 32);
@@ -34,6 +35,10 @@
 }
 
 @layer utilities {
+    .contentWidth{
+        width:90%;
+        max-width:1536px;
+    }
     .myBox{
         padding:0.5em;
         border-radius: 12px;

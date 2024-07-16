@@ -28,15 +28,15 @@ export default async function RootLayout({
 
   return (
     <html
-      className={`min-w-screen min-h-screen flex justify-center bg-background text-text ${leagueGothic.variable}`}
+      className={`bg-background text-text ${leagueGothic.variable}`}
       lang={locale}
       suppressHydrationWarning
     >
-      <body className="w-[90%] max-w-screen-xl">
+      <body className="flex flex-col items-center">
         <Providers>
           <NextIntlClientProvider messages={messages}>
-            <main className="size-full">
-              <Header />
+            <Header />
+            <main className="contentWidth">
               {children}
               <Footer />
             </main>

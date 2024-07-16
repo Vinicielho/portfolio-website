@@ -17,9 +17,12 @@ export default function Home() {
         </div>
       </div>
       {/* Essa caixa vai ter um side nav que vai olhar a lista de conteudos dentro das traduções, criar um link pra cada um e selecionar ele para colocar aqui e ser lido*/}
-      <div className="myBox w-full flex flex-col items center">
-        <div>Título</div>
-        <div className="py-4 ">{t(`explanations.${reading}.content`)}</div>
+      <div className="w-full flex items center">
+        <div>Sidenav</div>
+        <div>
+          <div className="text-center">Título</div>
+          <div className="py-4 ">{t(`explanations.${reading}.content`)}</div>
+        </div>
       </div>
     </div>
   );
