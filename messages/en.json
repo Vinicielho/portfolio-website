@@ -1,8 +1,13 @@
 {
-  "layout": { "footer": { "title": "Find me on ", "or": "or" } },
+  "layout": {
+    "footer": {
+      "thanks": "Thank you for your time, with this point of contact i hope to create conections with both employers and like minded people and that we could work together somehow!",
+      "contact": "Contate-me:"
+    }
+  },
   "page": {
     "title": "Welcome!",
-    "heroBox": "This is an alpha version of my portfolio website, Soon i will have a good presentation of how i like to work. Hope it will impress!",
+    "heroBox": "This is my space for presenting myself and displaying my skills as a developer, with both projects for studying and that i believe to be usefull, or just fun!",
     "explanations": {
       "theme": {
         "title": "theme",

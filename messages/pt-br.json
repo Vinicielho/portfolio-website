@@ -1,8 +1,13 @@
 {
-  "layout": { "footer": { "title": "encontre-me no ", "or": "ou" } },
+  "layout": {
+    "footer": {
+      "thanks": "Obrigado por seu tempo, com este ponto de contato espero que possa criar conexões tanto com empregadores quanto com pessoas similares e que possamos trabalhar juntos de alguma forma!",
+      "contact": "Contate-me:"
+    }
+  },
   "page": {
     "title": "Bem vindo!",
-    "heroBox": "blablalbvalblablaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAblabll",
+    "heroBox": "Esse é meu espaço para apresentar-me e mostrar minhas habilidades como desenvolvedor, tanto com projetos de estudo quanto que acredito ser úteis, ou apenas divertidos!",
     "explanations": {
       "theme": {
         "title": "temas",

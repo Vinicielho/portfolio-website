@@ -34,12 +34,11 @@ export default async function RootLayout({
     >
       <body className="flex flex-col items-center">
         <Providers>
+          {/* TODO: simplify the content-width scheme */}
           <NextIntlClientProvider messages={messages}>
             <Header />
-            <main className="contentWidth">
-              {children}
-              <Footer />
-            </main>
+            <main className="contentWidth">{children}</main>
+            <Footer />
           </NextIntlClientProvider>
         </Providers>
       </body>

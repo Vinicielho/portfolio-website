@@ -4,6 +4,7 @@ import { useLocale } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useTransition } from "react";
 
+// TODO: for some reason the whole page updates and scrolls back up, cant it just update and stay where it was?
 export default function LocaleSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();

@@ -22,7 +22,6 @@
     --primary:var(--light-purple);
     --secondary:var(--purple);
     --accent:var(--green);
-
 }
 
 .dark {
@@ -34,10 +33,12 @@
     --accent: var(--cyan);
 }
 
+/* TODO: send somethings to tailwind.config:*/
 @layer utilities {
+    /* TODO: do this with tailwind for consistensy */
     .contentWidth{
         width:90%;
-        max-width:1536px;
+        max-width:1280px;
     }
     .myBox{
         padding:0.5em;
@@ -47,6 +48,10 @@
     .myShadow{
         box-shadow:0px 0px 32px 1px var(--primary);
     }
+.inlineContent{
+    display:flex;
+    gap:1em;
+}
 }
 
 html{
