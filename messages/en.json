@@ -8,11 +8,10 @@
   "page": {
     "title": "Welcome!",
     "heroBox": "This is my space for presenting myself and displaying my skills as a developer, with both projects for studying and that i believe to be usefull, or just fun!",
-    "explanations": {
-      "theme": {
-        "title": "theme",
-        "content": "I will make an in depth explanation in the future, but i will say that it was made with some simplified tricks with tailwind, and a library named next-themes, the advantage of using it is that it solves a problem which happens thanks to next.js's server-side rendering, where the content blinks from the light theme to the dark one since it checks the user preferences when ariving to the browser, having this and some other details solved is a great boost to productivity."
-      }
+    "presentations": {
+      "portfolio website": "Thanks to my experience from the web development internship i realized how powerfull next.js and its related technologies are. So i devided to apply all of it in this website so it represents well my skills.",
+      "java crud": "O CRUD é um componente fundamental para web e vital que desenvolvedores conheçam, fiz esse em java",
+      "kotlin crud": "O CRUD é um componente fundamental para web e vital que desenvolvedores conheçam, fiz esse em kotlin"
     }
   }
 }

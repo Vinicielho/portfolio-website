@@ -5,6 +5,7 @@ import ThemeSwitcher from "./themeSwitcher";
 
 export default function Header() {
   const headerRef = useRef<HTMLDivElement>(null);
+  // TODO: Terminal complains about scrollY not being initialized but it works anyhow??
   const [onTop, setOnTop] = useState(scrollY > 0 ? false : true);
 
   useLayoutEffect(() => {

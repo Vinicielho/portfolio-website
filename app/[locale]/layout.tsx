@@ -3,7 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import { Providers } from "./components/themeProvider";
+import { MyThemeProvider } from "./components/themeProvider";
 import { League_Spartan } from "next/font/google";
 import "../globals.css";
 
@@ -33,14 +33,14 @@ export default async function RootLayout({
       suppressHydrationWarning
     >
       <body className="flex flex-col items-center">
-        <Providers>
-          {/* TODO: simplify the content-width scheme */}
+        <MyThemeProvider>
+          {/* TODO: Fix the page refreshing when changing lenguage*/}
           <NextIntlClientProvider messages={messages}>
             <Header />
             <main className="contentWidth">{children}</main>
             <Footer />
           </NextIntlClientProvider>
-        </Providers>
+        </MyThemeProvider>
       </body>
     </html>
   );
