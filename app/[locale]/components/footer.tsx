@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 export default function Footer() {
-  const t = useTranslations("layout.footer");
+  const t = useTranslations("components.footer");
 
   return (
     <footer className="mt-80 contentWidth box-content flex gap-1 justify-between p-4 rounded-t-xl myShadow">

@@ -5,18 +5,11 @@ import ThemeSwitcher from "./themeSwitcher";
 
 export default function Header() {
   const headerRef = useRef<HTMLDivElement>(null);
-  // TODO: Terminal complains about scrollY not being initialized but it works anyhow??
-  const [onTop, setOnTop] = useState(scrollY > 0 ? false : true);
+  const [onTop, setOnTop] = useState(false);
 
   useLayoutEffect(() => {
     const handleScroll = () => {
-      if (headerRef.current) {
-        if (window.scrollY > 0) {
-          setOnTop(false);
-        } else {
-          setOnTop(true);
-        }
-      }
+      setOnTop(window.scrollY === 0);
     };
 
     handleScroll();
@@ -28,7 +21,7 @@ export default function Header() {
   return (
     <header
       ref={headerRef}
-      className={`sticky top-0 contentWidth box-content flex justify-between items-center p-4 rounded-b-xl transition-all ${
+      className={`sticky top-0 contentWidth box-content flex justify-between items-center p-4 rounded-b-xl ${
         onTop ? "myShadow" : "backdrop-blur-sm"
       }`}
     >

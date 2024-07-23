@@ -3,6 +3,7 @@ import PresentationBox from "./components/presentationBox";
 
 export default function Home() {
   const t = useTranslations("page");
+  const c = useTranslations("components");
 
   // Presta atenção nas tags!
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           <h2>{t("heroBox")}</h2>
         </div>
       </div>
-      <PresentationBox presentations={t.raw("presentations")} />
+      <PresentationBox presentations={c.raw("presentationBox")} />
     </div>
   );
 }

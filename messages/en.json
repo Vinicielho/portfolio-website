@@ -1,17 +1,52 @@
 {
-  "layout": {
+  "page": {
+    "title": "Welcome!",
+    "heroBox": "This is my space for presenting myself and displaying my skills as a developer with projects for study, usefullness or just fun!"
+  },
+  "components": {
+    "presentationBox": {
+      "About me": {
+        "title": "asofinhfasoinasfoinasf",
+        "link": "linkedin.com/in/viniciuscoelho1995/",
+        "content": {
+          "Who am i": "my name is vinicious i'm a fuckng nerd and lariraridaaaaaaaaaaaas as as fnaoifn aoinf oiaenf oaeifn oainf oianf oiaenf oiaenfoi aenoian oianfaoi nfoain f",
+          "Experience": "internship lalalalalalalasdknfasolifnaoifnawofiawnfoiafwn qkajbf qwb nfoawif noiawf oiawhf oaiwhf awoihf aoiwf awf"
+        }
+      },
+      "Projects": {
+        "title": "asofinhfasoinasfoinasf",
+        "link": "github.com/Vinicielho/",
+        "content": {
+          "isso": "sgdfdhshshsh",
+          "aquilo": "sdgkçjbsdgkçjbsdgkçjgbsdkj"
+        },
+        "subtheme": {
+          "Portfolio Website": {
+            "title": "this very website!",
+            "link": "github.com/Vinicielho/portfolio-website",
+            "content": {
+              "What is it": "Thanks to my experience from the web development internship i realized how powerfull next.js and its related technologies are. So i devided to apply all of it in this website so it represents well my skills.",
+              "Internationalization": "using next-intl library",
+              "Themes": "using next-themes library",
+              "What else?": "i intend to make more stuff and all "
+            }
+          },
+          "Java Crud": {
+            "title": "estudo backend",
+            "link": "github.com/Vinicielho/java-crud",
+            "content": {
+              "O que é isso?": "Graças à experiencia que ganhei com meu estágio em web-development entendi o quão poderoso next.js e suas tecnologias relacionadas são, e por isso escolhi usa-los para desenvolver esse site e demonstrar minhas habilidades.",
+              "Internationalização": "usando a biblioteca next-intl",
+              "Temas": "usando a biblioteca next-themes",
+              "Só isso?": "vai ter mais coisa e pa"
+            }
+          }
+        }
+      }
+    },
     "footer": {
       "thanks": "Thank you for your time, with this point of contact i hope to create conections with both employers and like minded people and that we could work together somehow!",
       "contact": "Contate-me:"
-    }
-  },
-  "page": {
-    "title": "Welcome!",
-    "heroBox": "This is my space for presenting myself and displaying my skills as a developer, with both projects for studying and that i believe to be usefull, or just fun!",
-    "presentations": {
-      "portfolio website": "Thanks to my experience from the web development internship i realized how powerfull next.js and its related technologies are. So i devided to apply all of it in this website so it represents well my skills.",
-      "java crud": "O CRUD é um componente fundamental para web e vital que desenvolvedores conheçam, fiz esse em java",
-      "kotlin crud": "O CRUD é um componente fundamental para web e vital que desenvolvedores conheçam, fiz esse em kotlin"
     }
   }
 }
