@@ -95,7 +95,7 @@ export default function PresentationBox({
         </div>
       </div>
       {/* subthemes nav */}
-      {reading?.content && (
+      {reading?.content ? (
         <ol className="myBox">
           {Object.keys(reading.content).map((key) => (
             <li key={key}>
@@ -103,6 +103,8 @@ export default function PresentationBox({
             </li>
           ))}
         </ol>
+      ) : (
+        "ദ്ദി(ᵔᗜᵔ)"
       )}
     </div>
   );
