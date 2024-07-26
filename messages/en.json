@@ -7,15 +7,15 @@
     "presentationBox": {
       "About me": {
         "title": "Hello!",
-        "link": "linkedin.com/in/viniciuscoelho1995/",
+        "link": "https://www.linkedin.com/in/viniciuscoelho1995/",
         "content": {
-          "Who am i": "my name is vinicious, born in 95, i observed the technologies we use nowdays being developed at the same time as myself, always had the impulse of learning how things work and make the best of them, specialy in the professional realm",
+          "Who am i": "my name is vinicius, born in 95, i observed the technologies we use nowdays being developed at the same time as myself, always had the impulse of learning how things work and make the best of them, specialy in the professional realm",
           "Experience": "I have two internships related to computing: as it support during school days and as a fullstack web developer during my college, where i had contect with the tecnologies i now use to create this website!"
         }
       },
       "Projects": {
         "title": "Some of my work: ",
-        "link": "github.com/Vinicielho/",
+        "link": "https://www.github.com/Vinicielho/",
         "content": {
           "Interests": "It is rather gratifying to create usefull things, from time to time we come across a certain dificulty or a certain job with no easy way to do it and wonder why is it so? Such situation occours a whole lot and i love doing something about it!",
           "work ethic": "Software is prevalent in our lives but as long as it is working we pay not much mind to it, but there are a lot of important topics that goes on about the methods and execution of a project and its lifecycle and it all reflects the end product and its impact."
@@ -23,17 +23,17 @@
         "subtheme": {
           "Portfolio Website": {
             "title": "this very website!",
-            "link": "github.com/Vinicielho/portfolio-website",
+            "link": "https://www.github.com/Vinicielho/portfolio-website",
             "content": {
               "Whats intresting about it?": "Thanks to my experience from the web development internship i realized how powerfull next.js and its related technologies are. So i devided to apply all of it in this website so it represents well my skills.",
-              "Internationalization": "using next-intl library",
+              "Internationalization": "using next-intl library we have a simple and elegant solution which is buit on top of the next.js fundaments. With it and great care to write everything in two lenguages, i have the oportunity to express myself with many more people which might be interested",
               "themes": "using the next-themes library we have an elegant solution to a few problems that happen in this kind of system, where because of the server-side rendering the site is sent using a theme and then switches when it realizes the user prefers another, and i prefer not flashbanging people. hehe",
               "What else?": "i intend to make much more, so far i chosen to use available libraries to show that i can interact with other people's code and to solve those smaller problems faster, but of course, there comes a time where we need to make things ourselves and there are many things a website can do and i want to show that so can i. So maybe an arcade with an actual scoring system that sends you a message when someone beats your record? It will encompass quite a few intresting mechanics to get it going!"
             }
           },
           "Java Crud": {
             "title": "backend studies",
-            "link": "github.com/Vinicielho/",
+            "link": "https://www.github.com/Vinicielho/",
             "content": {
               "where is it?": "My current project, i had done it a couple of times before and would like to leave a nice one to display, so i'm doing a new one because studies got in the way of that last."
             }

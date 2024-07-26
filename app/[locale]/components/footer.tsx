@@ -6,7 +6,7 @@ export default function Footer() {
   const t = useTranslations("components.footer");
 
   return (
-    <footer className="mt-80 contentWidth box-content flex gap-1 justify-between p-4 rounded-t-xl myShadow">
+    <footer className="mt-56 contentWidth box-content flex gap-1 justify-between p-4 rounded-t-xl border-t border-secondary">
       <div className="w-1/3">{t(`thanks`)}</div>
       <div>
         <div className="myBox flex flex-col gap-1 text-center	">

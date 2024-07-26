@@ -11,7 +11,7 @@ export default function Home() {
       <div className="h-screen flex flex-col justify-around items-center text-center">
         {/* TODO: Animar as boas vindas */}
         <h1 className="text-8xl ">{t("title")}</h1>
-        <div className="myBox myShadow w-3/4 text-xl animate-fadeIn">
+        <div className="myBox myShadow w-3/4 text-2xl animate-fadeIn">
           <h2>{t("heroBox")}</h2>
         </div>
       </div>

@@ -7,7 +7,7 @@
     "presentationBox": {
       "Sobre": {
         "title": "Olá! ",
-        "link": "linkedin.com/in/viniciuscoelho1995/",
+        "link": "https://www.linkedin.com/in/viniciuscoelho1995/",
         "content": {
           "Quem sou eu": "Meu nome é vinicius, nascido em 95, observei as tecnologias que usamos em nosso dia a dia serem desenvolvidas junto comigo, sempre tive o impulso de aprender como as coisas funcionam e de tirar o máximo delas, principalmente no âmbito profissional",
           "Experiencia": "Com relação a informática tenho dois estágios: fui suporte de TI na época do segundo grau e com a faculdade web developer fullstack, onde tive contato com tecnologias que uso nesse site!"
@@ -15,7 +15,7 @@
       },
       "projetos": {
         "title": "Um pouco do meu trabalho: ",
-        "link": "github.com/Vinicielho/",
+        "link": "https://www.github.com/Vinicielho/",
         "content": {
           "Interesses": "É bem gratificante criar coisas úteis, as vezes passamos por certas dificuldades ou trabalhos que não tem uma solução simples e nos perguntamos por que tem que ser assim? Essas situações ocorrem bastante comigo e amo fazer algo sobre isso!",
           "Ética de trabalho": "Software é muito prevalente em nossas vidas porém por quanto que funcione não pensamos muito sobre, mas há tópicos muito importantes relativos aos métodos e execução de um projeto e seu ciclo de vida eisso tudo reflete no produto final e seu impacto."
@@ -23,17 +23,17 @@
         "subtheme": {
           "Portfolio Website": {
             "title": "Este site aqui!",
-            "link": "github.com/Vinicielho/portfolio-website",
+            "link": "https://www.github.com/Vinicielho/portfolio-website",
             "content": {
               "O que tem de interessante?": "Usando o framework next.js temos a oportunidade de criar muitas coisas legais, por enquanto tenho alguns sistemas interessantes que estão funcionando:",
-              "Internationalização": "usando a biblioteca next-intl temos uma implementação elegante que é construida por cima dos fundamentos do next.js. Com ela, e um bastante carinho pra escrever tudo em duas linguas, tenho a oportunidade de me expressar com mais gente que possa se interessar!",
-              "Temas": "usando a biblioteca next-themes temos uma solução elegante para alguns problemas que temos com temas nesse tipo de sistema, onde por causa do server-side rendering, o site 'pisca' ao ser enviado usando um tema e percebendo que o usuário prefere outro, e eu prefiro não jogar uma flashbang nos outros. hehe",
-              "o que mais?": "pretendo fazer muito mais, até agora escolhi usar bibliotecas disponíveis tanto para mostrar que consigo interagir com o código de outros quanto pra resolver esses problemas menores com mais agilidade, porém é claro, chega a hora que precisamos botar a mão na massa e tem muitas coisas que um website pode fazer e eu quero mostrar que eu também posso! Então talvez um arcade com sistema de placar que mandar uma mensagem quando seu recorde é vencido? envolveria umas boas mecanicas para fazer funcionar!"
+              "Internationalização": "Usando a biblioteca next-intl temos uma implementação elegante que é construida por cima dos fundamentos do next.js. Com ela, e um bastante carinho pra escrever tudo em duas linguas, tenho a oportunidade de me expressar com mais gente que possa se interessar!",
+              "Temas": "Usando a biblioteca next-themes temos uma solução elegante para alguns problemas que temos com temas nesse tipo de sistema, onde por causa do server-side rendering, o site 'pisca' ao ser enviado usando um tema e percebendo que o usuário prefere outro, e eu prefiro não jogar uma flashbang nos outros. hehe",
+              "O que mais?": "Pretendo fazer muito mais, até agora escolhi usar bibliotecas disponíveis tanto para mostrar que consigo interagir com o código de outros quanto pra resolver esses problemas menores com mais agilidade, porém é claro, chega a hora que precisamos botar a mão na massa e tem muitas coisas que um website pode fazer e eu quero mostrar que eu também posso! Então talvez um arcade com sistema de placar que mandar uma mensagem quando seu recorde é vencido? envolveria umas boas mecanicas para fazer funcionar!"
             }
           },
           "Java Crud": {
-            "title": "estudo backend",
-            "link": "github.com/Vinicielho/",
+            "title": "Estudo backend",
+            "link": "https://www.github.com/Vinicielho/",
             "content": {
               "Cadê?": "É o meu projeto atual, eu já fiz uns dois antes e gostaria de deixar um decente por aqui para demonstrações porém estudos ficaram no caminho do último."
             }

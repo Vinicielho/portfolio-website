@@ -6,7 +6,6 @@
     --lightest-pink:rgb(255, 247, 255);
     --light-pink: rgb(255,207,255);
 
-    /*TODO: Light-purple & purple tá nuito infantil não? */
     --light-purple:rgb(239, 223,255);
     --purple: rgb(32,0,96);
     --dark-purple:rgb(16, 0, 32);
@@ -33,9 +32,7 @@
     --accent: var(--cyan);
 }
 
-/* TODO: send somethings to tailwind.config:*/
 @layer utilities {
-    /* TODO: do this with tailwind for consistensy */
     .contentWidth{
         width:90%;
         max-width:1280px;
@@ -51,6 +48,17 @@
     .inlineContent{
         display:flex;
         gap:1em;
+    }
+    .sidenav{
+        position: sticky;
+        top:10rem;
+        margin-top: 4rem;
+        height: fit-content;
+        white-space: nowrap;
+        display:flex;
+        flex-direction: column;
+        gap:0.25em;
+        border-color: var(--secondary);
     }
 }
 
