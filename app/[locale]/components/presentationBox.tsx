@@ -37,8 +37,13 @@ export default function PresentationBox({
           // themes:
           <li key={key}>
             <button
-              // TODO:If reading is selecting this, it should have "text-accent" but if it is selecting a subtheme of this, it should have "text-secondary".
-              className={`${theme === key && "text-secondary"}`}
+              className={`${
+                reading === presentations[key]
+                  ? "text-accent"
+                  : theme === key
+                  ? "text-secondary"
+                  : ""
+              }`}
               onClick={() => {
                 setTheme(key);
                 setSubTheme(null);
@@ -46,12 +51,17 @@ export default function PresentationBox({
             >
               {key}
             </button>
-            {/* subthemes: */}
+            {/* subthemes:*/}
             {theme === key && presentations[key].subtheme && (
               <ol className="ml-2 mt-1 flex flex-col gap-1">
                 {Object.keys(presentations[key].subtheme).map((subKey) => (
                   <li key={subKey}>
                     <button
+                      className={`${
+                        reading === presentations[key].subtheme[subKey]
+                          ? "text-accent"
+                          : ""
+                      }`}
                       onClick={() => {
                         setSubTheme(subKey);
                       }}
