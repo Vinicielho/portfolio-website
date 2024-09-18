@@ -31,6 +31,15 @@
               "O que mais?": "Pretendo fazer muito mais, até agora escolhi usar bibliotecas disponíveis tanto para mostrar que consigo interagir com o código de outros quanto pra resolver esses problemas menores com mais agilidade, porém é claro, chega a hora que precisamos botar a mão na massa e tem muitas coisas que um website pode fazer e eu quero mostrar que eu também posso! Então talvez um arcade com sistema de placar que mandar uma mensagem quando seu recorde é vencido? envolveria umas boas mecanicas para fazer funcionar!"
             }
           },
+          "IA medidora de agua/gás!": {
+            "title": "Automação de leituras",
+            "link": "https://github.com/Vinicielho/shopper-test",
+            "content": {
+              "O que?": "Usando uma api da gemni API, esse programa envia uma imagem em base-64 junto com um prompt, perguntando qual o valor do relógio de agua ou gás na foto. E então coleta algumas outras informações do pedido em si e salva as devidas informações no banco de dados.",
+              "Por que?": "Foi um desafio proposto por uma entrevista de emprego, foi um desafio interessante, pois até então nao tinha usado essas tecnologias para criar um serviço de backend, tive que conhecer as bibliotecas de react que me ajudariam a fazer alguams coisas como os pedidos HTTP e o driver do banco de dados por exemplo.",
+              "Como?": "Requisições técnicas: Queriam um projeto rodando em node.JS com typescript e salvando as coisas em um banco de dados PostgreSQL e tudo tinha que subir com um único docker-compose, a gemni API tinha uma biblioteca para fazer os pedidos, porém usa-la foi mais complicado que esperado pois a documentação era bem simples e não se encaixava exatamente nos meus métodos, porém eventualmente consegui usa-la. O resto foram situações bem simples de fazer pedidos HTTP e interagir com bancos relacionais de qualquer outro CRUD que eu sei que vocês já viram. :)"
+            }
+          },
           "Java Crud": {
             "title": "Estudo backend",
             "link": "https://www.github.com/Vinicielho/",

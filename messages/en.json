@@ -31,6 +31,15 @@
               "What else?": "i intend to make much more, so far i chosen to use available libraries to show that i can interact with other people's code and to solve those smaller problems faster, but of course, there comes a time where we need to make things ourselves and there are many things a website can do and i want to show that so can i. So maybe an arcade with an actual scoring system that sends you a message when someone beats your record? It will encompass quite a few intresting mechanics to get it going!"
             }
           },
+          "Water/Gás Measuring AI!": {
+            "title": "Automating readings!",
+            "link": "https://github.com/Vinicielho/shopper-test",
+            "content": {
+              "What?": "Using an API from the Gemini API, this program sends a base-64 encoded image along with a prompt, asking for the value of the water or gas meter in the photo. It then collects some additional information from the request itself and saves the necessary information in the database.",
+              "Why?": "This was a challenge proposed during a job interview. It was an interesting challenge because, up until then, I hadn't used these technologies to create a backend service. I had to learn about the React libraries that would help me with things like making HTTP requests and interacting with the database driver, for example.",
+              "How?": "Technical requirements: They wanted a project running on Node.js with TypeScript, saving data in a PostgreSQL database, and everything had to be deployed with a single Docker-compose file. The Gemini API had a library for making requests, but using it was more complicated than expected because the documentation was quite basic and didn't fit my methods exactly. However, I eventually managed to use it. The rest was straightforward—making HTTP requests and interacting with relational databases, just like any other CRUD system, which I'm sure you’ve seen before. :)"
+            }
+          },
           "Java Crud": {
             "title": "backend studies",
             "link": "https://www.github.com/Vinicielho/",

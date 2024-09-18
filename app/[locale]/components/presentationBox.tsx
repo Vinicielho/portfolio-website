@@ -32,6 +32,7 @@ export default function PresentationBox({
 
   return (
     <div className="w-full flex gap-4 relative">
+      {/* TODO: Change so that the selected thing is purple AND underlined, instead of painting the theme blue when its subtheme is selected */}
       <ol className="sidenav border-r pr-4">
         {Object.keys(presentations).map((key) => (
           // themes:
