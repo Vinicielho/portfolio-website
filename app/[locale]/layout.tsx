@@ -26,6 +26,7 @@ export default async function RootLayout({
 }>) {
   const messages = await getMessages();
 
+  // TODO:SIMPLIFY/REDUCE TAGS?
   return (
     <html
       className={`bg-background text-text ${leagueGothic.variable}`}

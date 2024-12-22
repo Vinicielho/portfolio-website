@@ -4,8 +4,7 @@ import LocaleSwitcher from "./localeSwitcher";
 import ThemeSwitcher from "./themeSwitcher";
 
 export default function Header() {
-  const headerRef = useRef<HTMLDivElement>(null);
-  const [onTop, setOnTop] = useState(false);
+  const [onTop, setOnTop] = useState<null | boolean>(null);
 
   useLayoutEffect(() => {
     const handleScroll = () => {
@@ -20,7 +19,6 @@ export default function Header() {
 
   return (
     <header
-      ref={headerRef}
       className={`sticky top-0 contentWidth box-content flex justify-between items-center p-4 rounded-b-xl ${
         onTop ? "myShadow" : "backdrop-blur-sm"
       }`}

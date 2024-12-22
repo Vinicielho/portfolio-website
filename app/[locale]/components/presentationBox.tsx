@@ -30,6 +30,7 @@ export default function PresentationBox({
     }
   }, [theme, subTheme]);
 
+  // TODO: it changes size too much, fix that, make it a grid maybe?
   return (
     <div className="w-full flex gap-4 relative">
       {/* TODO: Change so that the selected thing is purple AND underlined, instead of painting the theme blue when its subtheme is selected */}
